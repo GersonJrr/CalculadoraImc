@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylelivro.css">
+    <title>Calculo Peso ideal</title>
+</head>
+<body>
+    <div class="container">
+        <img src="./imagens/pexels-pixabay-53404-removebg-preview.png" alt="blança de Peso">
+    </div>
+
+    <form>
+        <h1> Programa Cáculo do Peso Ideal</h1> 
+        <p>
+            Nome:
+            <input type="text" id="inNome" required>
+        </p>
+        <p>
+            Sexo:
+            <input type="radio" name="sexo" id="inMasculino" required> Masculino             
+
+            <input type="radio" name="sexo" id="inFeminino" required> Feminino
+        </p>
+        <p>
+            Altura:
+            <input type="number" min="0" step="0.01" id="inAltura" required>
+        </p>
+        <p>
+            Peso:
+            <input type="number" id="inPeso" required>
+        </p>
+        <input type="submit" value="Calcular o IMC">
+        <input type="reset" value="Limpas Campos">
+        <h3></h3>
+    </form>
+    
+
+    <script src="livro.js"></script>
+</body>
+</html>
